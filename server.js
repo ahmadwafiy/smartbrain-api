@@ -35,7 +35,7 @@ app.use(cors())
 //for testing purpose
  
 
-app.get('/',(req, res) => {	res.send('it is working'); })
+app.get('/',(req, res) => {	res.send('why this happeing'); })
 
 
 app.post('/signin', signin.handleSignin( db, bcrypt) ) //cara tulis yg lebih advance g(x)[f(x)] >> mula2 parse db, bcrypt, pastu utk settle parents guna lubang(params) sama utk parse req, res

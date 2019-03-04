@@ -1,2 +1,2 @@
 # smartbrain-api
-@wack
+backend for smartbrain
